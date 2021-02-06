@@ -1,23 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import CounterFunction from "./components/CounterFunction"
+import HookMouse from "./components/HookMouse"
+import MouseContainer from "./components/MouseContainer"
+import IntervalCounter from "./components/IntervalCounter"
+import DataFetching from "./components/DataFetching"
+import CounterOne from "./components/CounterOne"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome</h1>
+      {/*<CounterFunction />*/}
+      {/*<HookMouse />*/}
+      {/* <MouseContainer />*/}
+      {/*<IntervalCounter />*/}
+      {/*<DataFetching />*/}
+      <CounterOne />
+
+
     </div>
   );
 }
